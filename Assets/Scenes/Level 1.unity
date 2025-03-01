@@ -3081,6 +3081,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: efa646871e740eb49911dc8bbd11bbeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 1920607108}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -4882,8 +4883,6 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -865407157
   m_SortingLayer: 0
-  m_SortingLayerID: -1828509779
-  m_SortingLayer: 2
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
@@ -31051,6 +31050,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a093e4c0647b7e54e82dc0d0e2e71edb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  jumpableGround:
+    serializedVersion: 2
+    m_Bits: 64
+  moveSpeed: 7
+  jumpForce: 14
 --- !u!95 &1920607111
 Animator:
   serializedVersion: 5
@@ -31084,6 +31088,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b40194786ae9d743a8b834ec96705ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  kiwisText: {fileID: 0}
 --- !u!114 &1920607113
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31108,6 +31113,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af6ccb900aabb664f9c6669607341fed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  threshold: 0
 --- !u!58 &1920607115
 CircleCollider2D:
   m_ObjectHideFlags: 0
