@@ -12966,6 +12966,10 @@ PrefabInstance:
       propertyPath: _linkedUIDisplay
       value: 
       objectReference: {fileID: 1457458759}
+    - target: {fileID: 8941391852585134648, guid: d8a201607e1f587419441a31fbe34fac, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8941391852585134649, guid: d8a201607e1f587419441a31fbe34fac, type: 3}
       propertyPath: menuCanvas
       value: 
@@ -13210,10 +13214,10 @@ Camera:
   m_LensShift: {x: 0, y: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.1921875
+    x: 0.19166668
     y: 0
-    width: 0.16989583
-    height: 0.21574074
+    width: 0.16552083
+    height: 0.21018519
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
