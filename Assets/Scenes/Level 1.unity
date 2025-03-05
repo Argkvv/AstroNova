@@ -2660,8 +2660,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -470, y: 225}
-  m_SizeDelta: {x: 137.1484, y: 27.6188}
+  m_AnchoredPosition: {x: -238, y: 177}
+  m_SizeDelta: {x: 332.86, y: 27.62}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &273129130
 MonoBehaviour:
@@ -2683,7 +2683,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Kiwis: 0'
+  m_text: 'Nova Crests: 0'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2bd1a41937331674baf8a65232b72748, type: 2}
   m_sharedMaterial: {fileID: -6769725019306467173, guid: 2bd1a41937331674baf8a65232b72748, type: 2}
@@ -2692,8 +2692,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190085
-  m_fontColor: {r: 0.01886791, g: 0, b: 0, a: 1}
+    rgba: 4294376956
+  m_fontColor: {r: 0.98823535, g: 0.9921569, b: 0.96470594, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2746,7 +2746,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -57.687485, w: 0}
+  m_margin: {x: 0, y: 0, z: -57.687485, w: -6.9401016}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -4201,7 +4201,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!224 &1184870326
 RectTransform:
@@ -30964,8 +30964,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 320943785
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_Sprite: {fileID: -6367560908665664636, guid: 40de9a8703e2e5a47882b0b86451c741, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
