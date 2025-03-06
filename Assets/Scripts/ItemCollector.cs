@@ -15,7 +15,7 @@ public class ItemCollector : MonoBehaviour
         { 
             Destroy(collision.gameObject);
             kiwis++;
-            kiwisText.text = "Nova Crests: " +kiwis;
+            kiwisText.text = "Kiwis: " +kiwis;
             PlayerPrefs.SetInt("Kiwis", kiwis);
         }
     
