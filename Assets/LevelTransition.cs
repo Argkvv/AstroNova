@@ -27,6 +27,6 @@ public class LevelTransition : MonoBehaviour
 
     private void TransitionNextLevel()
     {
-        SceneManager.LoadScene("Levels Screen");
+        SceneManager.LoadScene("Level 2");
     }
 }
