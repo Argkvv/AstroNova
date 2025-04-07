@@ -6,10 +6,13 @@ namespace SpaceMadness.Interactables
 {
     public class InteractwithEnginePanel : BaseInteractable
     {
+
+        
         [SerializeField] private string sceneToLoad = "SampleScene";
 
         public override void ExecuteInteraction(GameObject interactorObject)
         {
+            PlayerPositionSaver.SavedPosition = interactorObject.transform.position;
             SceneManager.LoadScene(sceneToLoad);
         }
 
@@ -18,5 +21,6 @@ namespace SpaceMadness.Interactables
             // Always available for interaction
             return true;
         }
+        
     }
 }
